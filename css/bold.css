@@ -7,6 +7,7 @@ body {
 	font-family: 'DM Serif Text', serif;
     font-style: normal;
     background: black;
+    background-image: 'images/bg.jpg';
     color: white;
 }
 
