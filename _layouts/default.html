@@ -1,4 +1,3 @@
- 
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
@@ -6,8 +5,14 @@
   <body>
     <div class="container">
       {% include header.html %}
-      {{ content }}
-    </div>
-  </body>
 
-</html>
+      {% if site.data.navigation %}
+      <div class=m--nav>
+        {% for item in site.data.navigation %}
+        <a class="{% if page.name == 'blog.md' %}active{% endif %}" href="{{item.url}}">{{item.title}} ↓</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+       {{ content }}
+    </div>
+</body>
