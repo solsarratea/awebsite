@@ -85,11 +85,35 @@ vec3 trace(vec3 rayOrigin, vec3 dir) {
  ```
 
  I customize the function to return some colors.
+ 
+ 
+#### Comments on scene function
+
+You define your scene by using or combining the distance estimator primitives to create the objects in your scene.
+
+The ModSpace is used for repeating shapes, in one or more dimensions.
+
 
 
  
-#### Sources
+#### Sources for getting started
  [Distance Functions](http://iquilezles.org/www/articles/distfunctions/distfunctions.htm)
+ 
+ 
+ [Syntopia - Ray tracing and polygons](http://blog.hvidtfeldts.net/index.php/2014/01/combining-ray-tracing-and-polygons/) 
+ 
+ 
+ [Ray marching signed distance functions](http://jamie-wong.com/2016/07/15/ray-marching-signed-distance-functions/)
+ 
+ 
+ 
+  [Inigo Quilez - articles](http://iquilezles.org/)
+  
+  
+  [Patricio Gonzalez- book of shaders](https://thebookofshaders.com/)
+ 
+ 
+### introduced to this technique by amazing workshop of [Char Stiles](http://charstiles.com/)
  
   
   
