@@ -16,7 +16,7 @@ g_analytics: UA-12345678-1
 
 # posts
 date_format: "%Y"
-post_title: Story
+post_title: Name
 post_date: Year
 post_cat: Genre
 
@@ -26,8 +26,10 @@ prev-next: true
 #bio
 header: Sol Sarratea
 desc: >
-   Computational artist.
-   Creative software developer.
+  Computational artist
+
+
+  Drop me at mssarratea [a] gmail .com
 
 
 # posts
@@ -38,6 +40,12 @@ post_cat: Genre
 
 # post detail
 prev-next: true
+
+defaults:
+- scope:
+    path: "assets/img"
+values:
+  image: true
 
 
 # Build settings
